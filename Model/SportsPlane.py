@@ -16,22 +16,7 @@ class SportsPlane(Aircraft):
         
 
     def __str__(self) -> str:
-        return f"""Aircraft {self.model} with registration {self.registration} specifications:
-Cockpit crew: {self.cockpit_crew}
-Length: {self.length}m
-Height: {self.height}m
-MTOW(Maximum TakeOff Weight): {self.MTOW}kg
-OEW(Operating Empty Weight): {self.OEW}kg
-Wingspan: {self.wingspan}m
-Fuel capacity: {self.fuel_capacity}l
-Range: {self.range}km
-Cruise speed: {self.cruise_speed}km/h
-Cruise altitude: {self.cruise_altitude}ft
-Engines: {self.engines}
-Last maintnance date: {self.last_maintnance_date}
-Total hours flown: {self.flying_hours}h
-Fuel burn per hour: {self.fuel_burn_per_hour}kgs
-Owner: {self.owner}
+        return super().__str__() + f"""
 Team: {self.team} 
 """
 

@@ -46,8 +46,7 @@ Engines: {self.engines}
 Last maintnance date: {self.last_maintnance_date}
 Total hours flown: {self.flying_hours}h
 Fuel burn per hour: {self.fuel_burn_per_hour}kgs
-Owner: {self.owner} 
-"""
+Owner: {self.owner} """
 
 
     def fly(self, origin, destination, distance, passengers_on_board, fuel_burn_expected, destination_weather):
