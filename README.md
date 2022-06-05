@@ -1,9 +1,8 @@
 ### Lab 10
-Task Description:\
+Task Description:
 #### Implement a Stack LinkedList for Complex Numbers. Node should contain:
 - Real part
 - Imaginary part
-\
 #### Also, these methods should be implemented:
 - Adding a number to the list
 - Searching for a number by key
