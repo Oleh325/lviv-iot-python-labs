@@ -28,7 +28,10 @@ def main():
     stack.print_top()
     print("\nStack size: ")
     print(stack.size())
-
+    print("\nAfter deleting all elements: ")
+    stack.delete_all()
+    print(stack)
+    print("\n\n\n")
     
 
 if __name__ == '__main__':
