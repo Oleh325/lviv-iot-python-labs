@@ -1,6 +1,3 @@
-import this
-
-
 class Node:
     def __init__(self, real: float, imaginary: float):
        self.real: float = real
@@ -54,7 +51,6 @@ class StackLinkedList:
     def delete_all(self):
         while self.top is not None:
             self.top = self.top.next
-
 
     def add(self) -> Node:
         return Node(self.top.real + self.top.next.real, self.top.imaginary + self.top.next.imaginary)
