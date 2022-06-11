@@ -1,14 +1,5 @@
-### Lab 10
+### Lab 11
 Task Description:
-#### Implement a Stack LinkedList for Complex Numbers. Node should contain:
-- Real part
-- Imaginary part
-#### Also, these methods should be implemented:
-- Adding a number to the list
-- Searching for a number by key
-- Outputting number's data
-- Removing a number from the list
-- Removing all numbers from the list
-- Addition operation for the two last elements of the stack
-- Determining the location of a given number in the stack
-- Determining the size of the stack
+Using regular expressions count all OPTIONS requests in file:\
+http://igm.univ-mlv.fr/~cherrier/download/L1/access.log\
+that have been completed in time interval from 23/Mar/2009:03:38:17 to 25/Mar/2009:09:52:50\
